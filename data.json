@@ -18,28 +18,55 @@
         { "number": 11, "name": "Petra Ježková", "position": "P", "goals": 1, "matches": 0 },
         { "number": 83, "name": "Pavel Cindr", "position": "P", "goals": 0, "matches": 0 }
       ]
+    },
+    {
+      "name": "Skalka",
+      "players": [
+        { "number": 13, "name": "Dominik Umlauf", "position": "P", "goals": 0, "matches": 0 },
+        { "number": 10, "name": "Filip Umlauf", "position": "P", "goals": 0, "matches": 0 },
+        { "number": null, "name": "Josef Pohl", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 }
+      ]
+    },
+    {
+      "name": "Hroši",
+      "players": [
+        { "number": 7, "name": "Daniel Šmída", "position": "P", "goals": 0, "matches": 0 },
+        { "number": 11, "name": "Adam Šmída", "position": "P", "goals": 0, "matches": 0 },
+        { "number": 10, "name": "Martin Spanilý", "position": "P", "goals": 0, "matches": 0 },
+        { "number": 2, "name": "Jiří Rozinek", "position": "P", "goals": 0, "matches": 0 }
+      ]
     }
   ],
   "matches": [
     {
       "date": "2025-10-06",
       "home": "Homolkovi vepři",
-      "away": "Zkušební tým",
+      "away": "Skalka",
       "homeGoals": 5,
       "awayGoals": 3,
-      "playersHome": [13,6,29,8,4,88,55,3],  // někteří hráči nehráli
-      "playersAway": [1,2,3,4,5],
+      "playersHome": [13,6,29,8,4,88,55,3],
+      "playersAway": [13,10],
       "resultType": "win"
     },
     {
       "date": "2025-10-13",
-      "home": "Homolkovi vepři",
-      "away": "Zkušební tým",
+      "home": "Hroši",
+      "away": "Homolkovi vepři",
       "homeGoals": 2,
       "awayGoals": 2,
-      "playersHome": [13,6,29,8,4,88,55,3,46,77,11], 
-      "playersAway": [1,2,3,4,5],
+      "playersHome": [7,11,10],
+      "playersAway": [13,6,29,8,4,88,55,3,46,77,11],
       "resultType": "draw"
+    },
+    {
+      "date": "2025-10-20",
+      "home": "Skalka",
+      "away": "Hroši",
+      "homeGoals": 1,
+      "awayGoals": 4,
+      "playersHome": [13,10],
+      "playersAway": [7,11,10,2],
+      "resultType": "loss"
     }
   ]
 }

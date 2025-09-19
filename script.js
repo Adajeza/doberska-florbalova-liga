@@ -1,13 +1,13 @@
 let data;
 
 fetch('data.json')
-  .then(response => response.json())
+  .then(res => res.json())
   .then(json => {
     data = json;
 
-    // Spočítat zápasy pro hráče a gólmany
+    // Spočítat zápasy a góly pro hráče a gólmany
     data.matches.forEach(match => {
-      // hráči domácího týmu
+      // Hráči domácího týmu
       match.playersHome.forEach(num => {
         if (num !== null) {
           let player = data.teams[0].players.find(p => p.number === num);
@@ -15,7 +15,7 @@ fetch('data.json')
         }
       });
 
-      // gólman domácího týmu
+      // Gólmani domácího týmu
       data.teams[0].players.filter(p => p.position === 'G').forEach(gk => {
         gk.matches += 1;
         gk.goalsAgainst += match.awayGoals;
@@ -23,6 +23,7 @@ fetch('data.json')
     });
 
     renderTeams();
+    renderMatches();
     renderScorers();
     renderGoalies();
   });
@@ -42,6 +43,31 @@ function renderTeams() {
   });
 }
 
+function renderMatches() {
+  const container = document.getElementById('matches');
+  container.innerHTML = '<h3>Zápasy</h3>';
+  const table = document.createElement('table');
+  table.innerHTML = `<tr>
+    <th>Datum</th>
+    <th>Domácí</th>
+    <th>Góly</th>
+    <th>Hosté</th>
+    <th>Góly</th>
+  </tr>`;
+
+  data.matches.forEach(match => {
+    const row = document.createElement('tr');
+    row.innerHTML = `<td>${match.date}</td>
+                     <td>${match.home}</td>
+                     <td>${match.homeGoals}</td>
+                     <td>${match.away}</td>
+                     <td>${match.awayGoals}</td>`;
+    table.appendChild(row);
+  });
+
+  container.appendChild(table);
+}
+
 function renderScorers() {
   const container = document.getElementById('kanadskebodovani');
   container.innerHTML = '<h3>Kanadské bodování střelců</h3>';
@@ -57,17 +83,15 @@ function renderScorers() {
   let players = [];
   data.teams.forEach(team => {
     team.players.forEach(p => {
-      if (p.position !== 'G') {
-        players.push({ team: team.name, ...p });
-      }
+      if (p.position !== 'G') players.push({ team: team.name, ...p });
     });
   });
 
-  players.sort((a, b) => b.goals - a.goals);
+  players.sort((a,b) => b.goals - a.goals);
 
-  players.forEach((p, index) => {
+  players.forEach((p,index) => {
     const row = document.createElement('tr');
-    row.innerHTML = `<td>${index + 1}</td>
+    row.innerHTML = `<td>${index+1}</td>
                      <td>${p.name}</td>
                      <td>${p.team}</td>
                      <td>${p.matches}</td>
@@ -94,18 +118,16 @@ function renderGoalies() {
   let goalies = [];
   data.teams.forEach(team => {
     team.players.forEach(p => {
-      if (p.position === 'G') {
-        goalies.push({ team: team.name, ...p });
-      }
+      if (p.position === 'G') goalies.push({ team: team.name, ...p });
     });
   });
 
-  goalies.sort((a, b) => (a.goalsAgainst / a.matches) - (b.goalsAgainst / b.matches));
+  goalies.sort((a,b) => (a.goalsAgainst/a.matches) - (b.goalsAgainst/b.matches));
 
-  goalies.forEach((g, index) => {
-    const avg = g.matches ? (g.goalsAgainst / g.matches).toFixed(2) : 0;
+  goalies.forEach((g,index) => {
+    const avg = g.matches ? (g.goalsAgainst/g.matches).toFixed(2) : 0;
     const row = document.createElement('tr');
-    row.innerHTML = `<td>${index + 1}</td>
+    row.innerHTML = `<td>${index+1}</td>
                      <td>${g.name}</td>
                      <td>${g.team}</td>
                      <td>${g.matches}</td>

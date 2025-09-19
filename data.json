@@ -27,9 +27,19 @@
       "away": "Zkušební tým",
       "homeGoals": 5,
       "awayGoals": 3,
-      "playersHome": [13,6,29,8,4,88,55,3,46,77,11,83,null,null],
+      "playersHome": [13,6,29,8,4,88,55,3],  // někteří hráči nehráli
       "playersAway": [1,2,3,4,5],
       "resultType": "win"
+    },
+    {
+      "date": "2025-10-13",
+      "home": "Homolkovi vepři",
+      "away": "Zkušební tým",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "playersHome": [13,6,29,8,4,88,55,3,46,77,11], 
+      "playersAway": [1,2,3,4,5],
+      "resultType": "draw"
     }
   ]
 }

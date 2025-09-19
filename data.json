@@ -3,7 +3,6 @@
     {
       "name": "Homolkovi vepři",
       "players": [
-        { "number": null, "name": "Veronika Šmídová", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 },
         { "number": 13, "name": "Adam Ježek", "position": "P", "goals": 0, "matches": 0 },
         { "number": 6, "name": "Milan Šulc", "position": "P", "goals": 0, "matches": 0 },
         { "number": 29, "name": "Tomáš Kracík", "position": "P", "goals": 0, "matches": 0 },
@@ -14,8 +13,9 @@
         { "number": 3, "name": "Milan Poloch", "position": "P", "goals": 0, "matches": 0 },
         { "number": 46, "name": "Karel Hlaváček", "position": "P", "goals": 0, "matches": 0 },
         { "number": 77, "name": "Martin Čečetka", "position": "P", "goals": 0, "matches": 0 },
+        { "number": null, "name": "Veronika Šmídová", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 },
         { "number": null, "name": "Miroslav Jašík", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 },
-        { "number": 11, "name": "Petra Ježková", "position": "P", "goals": 0, "matches": 0 }
+        { "number": 11, "name": "Petra Ježková", "position": "P", "goals": 0, "matches": 0 },
         { "number": 83, "name": "Pavel Cindr", "position": "P", "goals": 0, "matches": 0 }
       ]
     }

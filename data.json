@@ -19,27 +19,4 @@
         { "number": 83, "name": "Pavel Cindr", "position": "P", "goals": 0, "matches": 0 }
       ]
     }
-  ],
-  "matches": [
-    {
-      "date": "2025-10-06",
-      "home": "Homolkovi vepři",
-      "away": "Zkušební tým",
-      "homeGoals": 5,
-      "awayGoals": 3,
-      "homeGoalie": null,
-      "awayGoalie": null,
-      "scorers": [
-        { "team": "Homolkovi vepři", "playerNumber": 13 },
-        { "team": "Homolkovi vepři", "playerNumber": 6 },
-        { "team": "Homolkovi vepři", "playerNumber": 6 },
-        { "team": "Homolkovi vepři", "playerNumber": 29 },
-        { "team": "Homolkovi vepři", "playerNumber": 8 },
-        { "team": "Zkušební tým", "playerNumber": 2 },
-        { "team": "Zkušební tým", "playerNumber": 3 },
-        { "team": "Zkušební tým", "playerNumber": 4 }
-      ],
-      "resultType": "win"
-    }
   ]
-}

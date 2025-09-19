@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Doberská florbalová liga</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Doberská florbalová liga</h1>
+    <nav>
+      <button onclick="showSection('table')">Tabulka</button>
+      <button onclick="showSection('matches')">Zápasy</button>
+      <button onclick="showSection('teams')">Soupisky</button>
+      <button onclick="showSection('stats')">Góly</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="table">
+      <h2>Tabulka týmů</h2>
+      <table id="teamTable">
+        <thead>
+          <tr>
+            <th>Tým</th>
+            <th>Zápasy</th>
+            <th>Výhry</th>
+            <th>Nájezdy výhra</th>
+            <th>Nájezdy prohra</th>
+            <th>Remízy</th>
+            <th>Prohry</th>
+            <th>Body</th>
+            <th>Skóre</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Dynamicky doplní JS -->
+        </tbody>
+      </table>
+    </section>
+
+    <section id="matches" style="display:none;">
+      <h2>Rozpis zápasů</h2>
+      <table id="matchesTable">
+        <thead>
+          <tr>
+            <th>Datum</th>
+            <th>Domácí</th>
+            <th>Výsledek</th>
+            <th>Hosté</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Dynamicky doplní JS -->
+        </tbody>
+      </table>
+    </section>
+
+    <section id="teams" style="display:none;">
+      <h2>Soupisky týmů</h2>
+      <div id="teamLists">
+        <!-- Dynamicky doplní JS -->
+      </div>
+    </section>
+
+    <section id="stats" style="display:none;">
+      <h2>Kanadské bodování (góly)</h2>
+      <div id="goalStats">
+        <!-- Dynamicky doplní JS -->
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

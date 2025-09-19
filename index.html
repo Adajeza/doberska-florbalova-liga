@@ -9,7 +9,8 @@
 
 <h1>Doberská florbalová liga</h1>
 
-<div class="tabs">
+<!-- Záložky -->
+<div>
   <button class="tablink" onclick="openTab(event,'tabulka')" id="defaultOpen">Tabulka</button>
   <button class="tablink" onclick="openTab(event,'vysledky')">Výsledky</button>
   <button class="tablink" onclick="openTab(event,'rozpis')">Rozpis</button>
@@ -18,13 +19,16 @@
   <button class="tablink" onclick="openTab(event,'brankari')">Brankáři</button>
 </div>
 
+<!-- Obsahy záložek -->
 <div id="tabulka" class="tabcontent"></div>
 <div id="vysledky" class="tabcontent"></div>
 <div id="rozpis" class="tabcontent"></div>
+
 <div id="soupisky" class="tabcontent">
   <div id="team-buttons"></div>
   <div id="team-roster"></div>
 </div>
+
 <div id="streleci" class="tabcontent"></div>
 <div id="brankari" class="tabcontent"></div>
 

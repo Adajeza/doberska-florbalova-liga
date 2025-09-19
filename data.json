@@ -16,7 +16,9 @@
         { "number": 77, "name": "Martin Čečetka", "position": "P", "goals": 0, "matches": 0 },
         { "number": null, "name": "Miroslav Jašík", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 },
         { "number": 11, "name": "Petra Ježková", "position": "P", "goals": 0, "matches": 0 }
+        { "number": 83, "name": "Pavel Cindr", "position": "P", "goals": 0, "matches": 0 }
       ]
     }
   ]
+
 }

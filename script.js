@@ -38,12 +38,13 @@ function renderStats() {
   const container = document.getElementById('kanadskebodovani');
   container.innerHTML = '<h3>Kanadské bodování</h3>';
   const table = document.createElement('table');
-  table.innerHTML = `<tr><th>Tým</th><th>Hráč</th><th>Góly</th><th>Zápasy</th></tr>`;
+  table.innerHTML = `<tr><th>Hráč</th><th>Góly</th><th>Zápasy</th></tr>`;
   
   data.teams.forEach(team => {
     team.players.forEach(p => {
       const row = document.createElement('tr');
-      row.innerHTML = `<td>${team.name}</td><td>${p.name}</td><td>${p.goals}</td><td>${p.matches}</td>`;
+      // tým + jméno hráče v jedné buňce
+      row.innerHTML = `<td>${team.name} - ${p.name}</td><td>${p.goals}</td><td>${p.matches}</td>`;
       table.appendChild(row);
     });
   });

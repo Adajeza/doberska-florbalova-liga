@@ -1,35 +1,51 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
-  background: #f5f5f5;
+  margin:0;
+  padding:0;
+  background:#f5f5f5;
 }
-
 h1 {
-  text-align: center;
+  text-align:center;
+  padding:20px 0;
 }
-
-section {
-  margin-bottom: 40px;
-  background: #fff;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+.tabs {
+  overflow: hidden;
+  background-color: #1e90ff;
 }
-
+.tabs button {
+  background-color: inherit;
+  border:none;
+  outline:none;
+  cursor:pointer;
+  padding:14px 16px;
+  transition:0.3s;
+  color:white;
+  font-weight:bold;
+}
+.tabs button:hover {
+  background-color:#0d6efd;
+}
+.tabcontent {
+  display:none;
+  padding:20px;
+}
 table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 10px;
+  width:100%;
+  border-collapse:collapse;
+  background:white;
 }
-
+table, th, td {
+  border:1px solid #ccc;
+}
 th, td {
-  border: 1px solid #ccc;
-  padding: 6px;
-  text-align: center;
+  padding:8px;
+  text-align:center;
 }
-
 .gk {
-  color: red;
-  font-weight: bold;
+  color:red;
+  font-weight:bold;
+}
+#team-buttons button {
+  margin:5px;
+  padding:5px 10px;
 }

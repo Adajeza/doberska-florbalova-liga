@@ -1,34 +1,236 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Doberská florbalová liga</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f5f5f5; }
+    header { background: #333; color: white; text-align: center; padding: 15px; }
+    nav { display: flex; justify-content: center; background: #444; }
+    nav button {
+      flex: 1;
+      padding: 12px;
+      border: none;
+      background: #555;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    nav button.active { background: #e91e63; }
+    section { display: none; padding: 20px; }
+    section.active { display: block; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+      background: white;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: center;
+    }
+    th { background: #e91e63; color: white; }
+    h2 { margin-top: 0; }
+  </style>
 </head>
 <body>
+  <header>
+    <h1>Doberská florbalová liga</h1>
+  </header>
 
-  <h1>Doberská florbalová liga</h1>
+  <nav>
+    <button class="tab-button active" data-tab="tabulka">Tabulka</button>
+    <button class="tab-button" data-tab="zapasy">Zápasy</button>
+    <button class="tab-button" data-tab="soupisky">Soupisky</button>
+    <button class="tab-button" data-tab="strelci">Střelci</button>
+    <button class="tab-button" data-tab="brankari">Brankáři</button>
+  </nav>
 
-  <section id="league-table">
-    <h2>Tabulka ligy</h2>
+  <section id="tabulka" class="active">
+    <h2>Tabulka</h2>
+    <table id="standingsTable">
+      <thead>
+        <tr>
+          <th>Pořadí</th>
+          <th>Tým</th>
+          <th>Z</th>
+          <th>V</th>
+          <th>Vn</th>
+          <th>R</th>
+          <th>Pn</th>
+          <th>P</th>
+          <th>Body</th>
+          <th>Skóre</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
   </section>
 
-  <section id="matches">
+  <section id="zapasy">
     <h2>Zápasy</h2>
+    <ul id="matchesList"></ul>
   </section>
 
-  <section id="team-list">
-    <h2>Soupisky týmů</h2>
+  <section id="soupisky">
+    <h2>Soupisky</h2>
+    <div id="teamsRosters"></div>
   </section>
 
-  <section id="scorers">
-    <h2>Kanadské bodování střelců</h2>
+  <section id="strelci">
+    <h2>Střelci</h2>
+    <table id="scorersTable">
+      <thead>
+        <tr><th>Jméno</th><th>Tým</th><th>Góly</th><th>Asistence</th><th>Body</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
   </section>
 
-  <section id="goalies">
-    <h2>Statistiky gólmanů</h2>
+  <section id="brankari">
+    <h2>Brankářské statistiky</h2>
+    <table id="goaliesTable">
+      <thead>
+        <tr><th>Jméno</th><th>Tým</th><th>Zápasy</th><th>Obdržené góly</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
   </section>
 
-  <script src="script.js"></script>
+  <script>
+    const data = {
+      teams: [
+        {
+          name: "Homolkovi vepři",
+          players: [
+            { name: "Jan Homolka", goals: 5, assists: 2 },
+            { name: "Petr Homolka", goals: 3, assists: 4 }
+          ],
+          goalie: { name: "Tomáš Homolka", games: 2, goalsAgainst: 7 }
+        },
+        {
+          name: "Skalka",
+          players: [
+            { name: "Dominik Umlauf", goals: 2, assists: 1 },
+            { name: "Filip Umlauf", goals: 1, assists: 2 }
+          ],
+          goalie: { name: "Josef Pohl", games: 1, goalsAgainst: 5 }
+        },
+        {
+          name: "Hroši",
+          players: [
+            { name: "Daniel Šmída", goals: 1, assists: 0 },
+            { name: "Adam Šmída", goals: 2, assists: 1 },
+            { name: "Martin Spanilý", goals: 0, assists: 1 },
+            { name: "Jiří Rozinek", goals: 0, assists: 0 }
+          ],
+          goalie: { name: "Petr Hroch", games: 0, goalsAgainst: 0 }
+        }
+      ],
+      matches: [
+        { home: "Homolkovi vepři", away: "Skalka", homeGoals: 5, awayGoals: 3 },
+        { home: "Hroši", away: "Skalka", homeGoals: 0, awayGoals: 0 } // neodehráno
+      ]
+    };
+
+    function showTab(tabId) {
+      document.querySelectorAll("section").forEach(s => s.classList.remove("active"));
+      document.querySelector(`#${tabId}`).classList.add("active");
+      document.querySelectorAll(".tab-button").forEach(b => b.classList.remove("active"));
+      document.querySelector(`[data-tab="${tabId}"]`).classList.add("active");
+    }
+    document.querySelectorAll(".tab-button").forEach(btn =>
+      btn.addEventListener("click", () => showTab(btn.dataset.tab))
+    );
+
+    // Tabulka
+    function renderStandings() {
+      const standings = data.teams.map(team => {
+        const played = data.matches.filter(m =>
+          (m.home === team.name || m.away === team.name) &&
+          (m.homeGoals !== 0 || m.awayGoals !== 0)
+        );
+        let wins = 0, winsOT = 0, ties = 0, lossOT = 0, losses = 0, points = 0, gf = 0, ga = 0;
+
+        played.forEach(m => {
+          const isHome = m.home === team.name;
+          const goalsFor = isHome ? m.homeGoals : m.awayGoals;
+          const goalsAgainst = isHome ? m.awayGoals : m.homeGoals;
+          gf += goalsFor; ga += goalsAgainst;
+
+          if (goalsFor > goalsAgainst) { wins++; points += 3; }
+          else if (goalsFor < goalsAgainst) { losses++; }
+          else { ties++; points += 1; }
+        });
+
+        return { team: team.name, Z: played.length, V: wins, Vn: winsOT, R: ties, Pn: lossOT, P: losses, Body: points, Skore: `${gf}:${ga}` };
+      });
+
+      standings.sort((a,b)=>b.Body-a.Body);
+      const tbody = document.querySelector("#standingsTable tbody");
+      tbody.innerHTML = "";
+      standings.forEach((s,i)=>{
+        tbody.innerHTML += `<tr>
+          <td>${i+1}</td><td>${s.team}</td><td>${s.Z}</td><td>${s.V}</td><td>${s.Vn}</td>
+          <td>${s.R}</td><td>${s.Pn}</td><td>${s.P}</td><td>${s.Body}</td><td>${s.Skore}</td>
+        </tr>`;
+      });
+    }
+
+    // Zápasy
+    function renderMatches() {
+      const list = document.querySelector("#matchesList");
+      list.innerHTML = "";
+      data.matches.forEach(m=>{
+        if (m.homeGoals === 0 && m.awayGoals === 0) {
+          list.innerHTML += `<li>${m.home} vs ${m.away} – neodehráno</li>`;
+        } else {
+          list.innerHTML += `<li>${m.home} ${m.homeGoals}:${m.awayGoals} ${m.away}</li>`;
+        }
+      });
+    }
+
+    // Soupisky
+    function renderRosters() {
+      const div = document.querySelector("#teamsRosters");
+      div.innerHTML = "";
+      data.teams.forEach(t=>{
+        div.innerHTML += `<h3>${t.name}</h3><ul>${
+          t.players.map(p=>`<li>${p.name} – ${p.goals}G, ${p.assists}A</li>`).join("")
+        }</ul><p>Brankář: ${t.goalie.name}</p>`;
+      });
+    }
+
+    // Střelci
+    function renderScorers() {
+      let allPlayers = [];
+      data.teams.forEach(t=>{
+        t.players.forEach(p=>{
+          allPlayers.push({name:p.name,team:t.name,goals:p.goals,assists:p.assists,points:p.goals+p.assists});
+        });
+      });
+      allPlayers.sort((a,b)=>b.points-a.points);
+      const tbody = document.querySelector("#scorersTable tbody");
+      tbody.innerHTML = allPlayers.map(p=>
+        `<tr><td>${p.name}</td><td>${p.team}</td><td>${p.goals}</td><td>${p.assists}</td><td>${p.points}</td></tr>`
+      ).join("");
+    }
+
+    // Brankáři
+    function renderGoalies() {
+      const tbody = document.querySelector("#goaliesTable tbody");
+      tbody.innerHTML = "";
+      data.teams.forEach(t=>{
+        tbody.innerHTML += `<tr><td>${t.goalie.name}</td><td>${t.name}</td><td>${t.goalie.games}</td><td>${t.goalie.goalsAgainst}</td></tr>`;
+      });
+    }
+
+    renderStandings();
+    renderMatches();
+    renderRosters();
+    renderScorers();
+    renderGoalies();
+  </script>
 </body>
 </html>

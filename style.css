@@ -25,6 +25,9 @@ h1 {
 .tabs button:hover {
   background-color:#0d6efd;
 }
+.tabs button.active {
+  background-color:#0b5ed7;
+}
 .tabcontent {
   display:none;
   padding:20px;

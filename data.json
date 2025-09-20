@@ -4,19 +4,10 @@
       "name": "Homolkovi vepři",
       "players": [
         { "number": 13, "name": "Adam Ježek", "position": "P", "goals": 2, "matches": 2 },
-        { "number": 6, "name": "Milan Šulc", "position": "P", "goals": 1, "matches": 1 },
+        { "number": 6, "name": "Milan Šulc", "position": "P", "goals": 1, "matches": 2 },
         { "number": 29, "name": "Tomáš Kracík", "position": "P", "goals": 0, "matches": 1 },
         { "number": 8, "name": "Vojtěch Pop", "position": "P", "goals": 1, "matches": 2 },
-        { "number": 4, "name": "Tomáš Jablonský", "position": "P", "goals": 0, "matches": 1 },
-        { "number": 88, "name": "Jiří Homolka", "position": "P", "goals": 0, "matches": 1 },
-        { "number": 55, "name": "Jan Flégl", "position": "P", "goals": 0, "matches": 1 },
-        { "number": 3, "name": "Milan Poloch", "position": "P", "goals": 0, "matches": 0 },
-        { "number": 46, "name": "Karel Hlaváček", "position": "P", "goals": 0, "matches": 0 },
-        { "number": 77, "name": "Martin Čečetka", "position": "P", "goals": 0, "matches": 0 },
-        { "number": null, "name": "Veronika Šmídová", "position": "G", "goals": 0, "matches": 2, "goalsAgainst": 7 },
-        { "number": null, "name": "Miroslav Jašík", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 },
-        { "number": 11, "name": "Petra Ježková", "position": "P", "goals": 0, "matches": 1 },
-        { "number": 83, "name": "Pavel Cindr", "position": "P", "goals": 1, "matches": 1 }
+        { "number": null, "name": "Veronika Šmídová", "position": "G", "goals": 0, "matches": 2, "goalsAgainst": 7 }
       ]
     },
     {
@@ -33,4 +24,38 @@
         { "number": 7, "name": "Daniel Šmída", "position": "P", "goals": 1, "matches": 1 },
         { "number": 11, "name": "Adam Šmída", "position": "P", "goals": 0, "matches": 0 },
         { "number": 10, "name": "Martin Spanilý", "position": "P", "goals": 0, "matches": 0 },
-        { "number": 2, "name":
+        { "number": 2, "name": "Jiří Rozinek", "position": "P", "goals": 0, "matches": 0 }
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "date": "2025-09-18",
+      "home": "Homolkovi vepři",
+      "homeGoals": 5,
+      "awayGoals": 3,
+      "away": "Skalka"
+    },
+    {
+      "date": "2025-09-12",
+      "home": "Skalka",
+      "homeGoals": 2,
+      "awayGoals": 4,
+      "away": "Homolkovi vepři"
+    },
+    {
+      "date": "2025-09-28",
+      "home": "Hroši",
+      "homeGoals": null,
+      "awayGoals": null,
+      "away": "Homolkovi vepři"
+    },
+    {
+      "date": "2025-10-05",
+      "home": "Skalka",
+      "homeGoals": null,
+      "awayGoals": null,
+      "away": "Hroši"
+    }
+  ]
+}

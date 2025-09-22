@@ -1,0 +1,81 @@
+{
+  "teams": [
+    {
+      "name": "Homolkovi vepři",
+      "players": [
+        { "number": 1, "name": "Šmídová Veronika", "position": "G", "matches": 0, "goals": 0, "goalsAgainst": 0 },
+        { "number": 13, "name": "Ježek Adam", "position": "F", "matches": 0, "goals": 0 },
+        { "number": 6, "name": "Šulc Milan", "position": "F", "matches": 0, "goals": 0 },
+        { "number": 29, "name": "Kracík Tomáš", "position": "F", "matches": 0, "goals": 0 },
+        { "number": 8, "name": "Pop Vojtěch", "position": "F", "matches": 0, "goals": 0 },
+        { "number": 4, "name": "Jablonský Tomáš", "position": "F", "matches": 0, "goals": 0 },
+        { "number": 88, "name": "Homolka Jiří", "position": "F", "matches": 0, "goals": 0 },
+        { "number": 55, "name": "Flégl Jan", "position": "F", "matches": 0, "goals": 0 },
+        { "number": 3, "name": "Poloch Milan", "position": "F", "matches": 0, "goals": 0 },
+        { "number": 46, "name": "Hlaváček Karel", "position": "F", "matches": 0, "goals": 0 },
+        { "number": 77, "name": "Čečetka Martin", "position": "F", "matches": 0, "goals": 0 },
+        { "number": 12, "name": "Jašík Miroslav", "position": "G", "matches": 0, "goals": 0, "goalsAgainst": 0 },
+        { "number": 11, "name": "Ježková Petra", "position": "F", "matches": 0, "goals": 0 },
+        { "number": 83, "name": "Cindr Pavel", "position": "F", "matches": 0, "goals": 0 }
+      ]
+    },
+    {
+      "name": "Skalka",
+      "players": [
+        { "number": 13, "name": "Dominik Umlauf", "position": "F", "matches": 0, "goals": 0 },
+        { "number": 10, "name": "Filip Umlauf", "position": "F", "matches": 0, "goals": 0 },
+        { "number": 1, "name": "Josef Pohl", "position": "G", "matches": 0, "goals": 0, "goalsAgainst": 0 }
+      ]
+    },
+    {
+      "name": "Hroši",
+      "players": [
+        { "number": 1, "name": "Franc Jan", "position": "G", "matches": 0, "goals": 0, "goalsAgainst": 0 },
+        { "number": 2, "name": "Pašta Martin", "position": "F", "matches": 0, "goals": 0 },
+        { "number": 6, "name": "Rozínek Jiří", "position": "F", "matches": 0, "goals": 0 },
+        { "number": 7, "name": "Šmída Daniel", "position": "F", "matches": 0, "goals": 0 },
+        { "number": 10, "name": "Mádr Jiří", "position": "F", "matches": 0, "goals": 0 },
+        { "number": 11, "name": "Spanilý Martin", "position": "F", "matches": 0, "goals": 0 },
+        { "number": 13, "name": "Pecen Tomáš", "position": "F", "matches": 0, "goals": 0 },
+        { "number": 27, "name": "Svoboda Ondřej", "position": "F", "matches": 0, "goals": 0 },
+        { "number": 30, "name": "Preininger Luděk", "position": "F", "matches": 0, "goals": 0 },
+        { "number": 83, "name": "Vidlák Tomáš", "position": "F", "matches": 0, "goals": 0 },
+        { "number": 97, "name": "Šmída Adam", "position": "F", "matches": 0, "goals": 0 },
+        { "number": 31, "name": "Svobodová Tereza", "position": "G", "matches": 0, "goals": 0, "goalsAgainst": 0 }
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "date": "2025-09-01",
+      "home": "Homolkovi vepři",
+      "away": "Skalka",
+      "homeGoals": 5,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "date": "2025-09-05",
+      "home": "Skalka",
+      "away": "Hroši",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "date": "2025-09-10",
+      "home": "Hroši",
+      "away": "Homolkovi vepři",
+      "homeGoals": 0,
+      "awayGoals": 4,
+      "played": true
+    },
+    {
+      "date": "2025-09-25",
+      "home": "Homolkovi vepři",
+      "away": "Hroši",
+      "played": false
+    }
+  ]
+}
+

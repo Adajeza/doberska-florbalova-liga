@@ -3,58 +3,68 @@
     {
       "name": "Homolkovi vepři",
       "players": [
-        { "number": 13, "name": "Adam Ježek", "position": "P", "goals": 2, "matches": 2 },
-        { "number": 6, "name": "Milan Šulc", "position": "P", "goals": 1, "matches": 2 },
-        { "number": 29, "name": "Tomáš Kracík", "position": "P", "goals": 0, "matches": 1 },
-        { "number": 8, "name": "Vojtěch Pop", "position": "P", "goals": 1, "matches": 2 },
-        { "number": null, "name": "Veronika Šmídová", "position": "G", "goals": 0, "matches": 2, "goalsAgainst": 7 }
-      ]
-    },
-    {
-      "name": "Skalka",
-      "players": [
-        { "number": 13, "name": "Dominik Umlauf", "position": "P", "goals": 0, "matches": 2 },
-        { "number": 10, "name": "Filip Umlauf", "position": "P", "goals": 1, "matches": 1 },
-        { "number": null, "name": "Josef Pohl", "position": "G", "goals": 0, "matches": 2, "goalsAgainst": 9 }
+        { "number": null, "name": "Veronika Šmídová", "position": "G", "matches": 0, "goals": 0, "goalsAgainst": 0 },
+        { "number": 13, "name": "Adam Ježek", "position": "P", "matches": 0, "goals": 2 },
+        { "number": 6, "name": "Milan Šulc", "position": "P", "matches": 0, "goals": 1 },
+        { "number": 29, "name": "Tomáš Kracík", "position": "P", "matches": 0, "goals": 0 },
+        { "number": 8, "name": "Vojtěch Pop", "position": "P", "matches": 0, "goals": 3 },
+        { "number": 4, "name": "Tomáš Jablonský", "position": "P", "matches": 0, "goals": 0 },
+        { "number": 88, "name": "Jiří Homolka", "position": "P", "matches": 0, "goals": 0 },
+        { "number": 55, "name": "Jan Flégl", "position": "P", "matches": 0, "goals": 0 },
+        { "number": 3, "name": "Milan Poloch", "position": "P", "matches": 0, "goals": 0 },
+        { "number": 46, "name": "Karel Hlaváček", "position": "P", "matches": 0, "goals": 0 },
+        { "number": 77, "name": "Martin Čečetka", "position": "P", "matches": 0, "goals": 1 },
+        { "number": null, "name": "Miroslav Jašík", "position": "G", "matches": 0, "goals": 0, "goalsAgainst": 0 },
+        { "number": 11, "name": "Petra Ježková", "position": "P", "matches": 0, "goals": 0 },
+        { "number": 83, "name": "Pavel Cindr", "position": "P", "matches": 0, "goals": 0 }
       ]
     },
     {
       "name": "Hroši",
       "players": [
-        { "number": 7, "name": "Daniel Šmída", "position": "P", "goals": 1, "matches": 1 },
-        { "number": 11, "name": "Adam Šmída", "position": "P", "goals": 0, "matches": 0 },
-        { "number": 10, "name": "Martin Spanilý", "position": "P", "goals": 0, "matches": 0 },
-        { "number": 2, "name": "Jiří Rozinek", "position": "P", "goals": 0, "matches": 0 }
+        { "number": null, "name": "Jan Franc", "position": "G", "matches": 0, "goals": 0, "goalsAgainst": 0 },
+        { "number": null, "name": "Tereza Svobodová", "position": "G", "matches": 0, "goals": 0, "goalsAgainst": 0 },
+        { "number": 2, "name": "Martin Pašta", "position": "P", "matches": 0, "goals": 0 },
+        { "number": 6, "name": "Jiří Rozínek", "position": "P", "matches": 0, "goals": 1 },
+        { "number": 7, "name": "Daniel Šmída", "position": "P", "matches": 0, "goals": 0 },
+        { "number": 10, "name": "Jiří Mádr", "position": "P", "matches": 0, "goals": 0 },
+        { "number": 11, "name": "Martin Spanilý", "position": "P", "matches": 0, "goals": 0 },
+        { "number": 13, "name": "Tomáš Pecen", "position": "P", "matches": 0, "goals": 2 },
+        { "number": 27, "name": "Ondřej Svoboda", "position": "P", "matches": 0, "goals": 0 },
+        { "number": 30, "name": "Luděk Preininger", "position": "P", "matches": 0, "goals": 0 },
+        { "number": 83, "name": "Tomáš Vidlák", "position": "P", "matches": 0, "goals": 0 },
+        { "number": 97, "name": "Adam Šmída", "position": "P", "matches": 0, "goals": 0 }
+      ]
+    },
+    {
+      "name": "Skalka",
+      "players": [
+        { "number": 13, "name": "Dominik Umlauf", "position": "P", "matches": 0, "goals": 2 },
+        { "number": 10, "name": "Filip Umlauf", "position": "P", "matches": 0, "goals": 1 },
+        { "number": null, "name": "Josef Pohl", "position": "G", "matches": 0, "goals": 0, "goalsAgainst": 0 }
       ]
     }
   ],
-  "matches": [
+  "matchesPlayed": [
     {
-      "date": "2025-09-18",
+      "date": "2025-09-01",
       "home": "Homolkovi vepři",
+      "away": "Skalka",
       "homeGoals": 5,
-      "awayGoals": 3,
-      "away": "Skalka"
+      "awayGoals": 3
     },
     {
-      "date": "2025-09-12",
-      "home": "Skalka",
-      "homeGoals": 2,
-      "awayGoals": 4,
-      "away": "Homolkovi vepři"
-    },
-    {
-      "date": "2025-09-28",
+      "date": "2025-09-05",
       "home": "Hroši",
-      "homeGoals": null,
-      "awayGoals": null,
-      "away": "Homolkovi vepři"
-    },
+      "away": "Homolkovi vepři",
+      "homeGoals": 2,
+      "awayGoals": 2
+    }
+  ],
+  "matchesUpcoming": [
     {
-      "date": "2025-10-05",
+      "date": "2025-09-25",
       "home": "Skalka",
-      "homeGoals": null,
-      "awayGoals": null,
       "away": "Hroši"
     }
   ]

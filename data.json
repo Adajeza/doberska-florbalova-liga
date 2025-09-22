@@ -1,0 +1,79 @@
+{
+  "teams": [
+    {
+      "name": "Homolkovi vepři",
+      "players": [
+        { "number": null, "name": "Veronika Šmídová", "position": "G" },
+        { "number": 13, "name": "Adam Ježek", "position": "P" },
+        { "number": 6, "name": "Milan Šulc", "position": "P" },
+        { "number": 29, "name": "Tomáš Kracík", "position": "P" },
+        { "number": 8, "name": "Vojtěch Pop", "position": "P" },
+        { "number": 4, "name": "Tomáš Jablonský", "position": "P" },
+        { "number": 88, "name": "Jiří Homolka", "position": "P" },
+        { "number": 55, "name": "Jan Flégl", "position": "P" },
+        { "number": 3, "name": "Milan Poloch", "position": "P" },
+        { "number": 46, "name": "Karel Hlaváček", "position": "P" },
+        { "number": 77, "name": "Martin Čečetka", "position": "P" },
+        { "number": null, "name": "Miroslav Jašík", "position": "G" },
+        { "number": 11, "name": "Petra Ježková", "position": "P" },
+        { "number": 83, "name": "Pavel Cindr", "position": "P" }
+      ]
+    },
+    {
+      "name": "Hroši",
+      "players": [
+        { "number": null, "name": "Jan Franc", "position": "G" },
+        { "number": null, "name": "Tereza Svobodová", "position": "G" },
+        { "number": 2, "name": "Martin Pašta", "position": "P" },
+        { "number": 6, "name": "Jiří Rozínek", "position": "P" },
+        { "number": 7, "name": "Daniel Šmída", "position": "P" },
+        { "number": 10, "name": "Jiří Mádr", "position": "P" },
+        { "number": 11, "name": "Martin Spanilý", "position": "P" },
+        { "number": 13, "name": "Tomáš Pecen", "position": "P" },
+        { "number": 27, "name": "Ondřej Svoboda", "position": "P" },
+        { "number": 30, "name": "Luděk Preininger", "position": "P" },
+        { "number": 83, "name": "Tomáš Vidlák", "position": "P" },
+        { "number": 97, "name": "Adam Šmída", "position": "P" }
+      ]
+    },
+    {
+      "name": "Skalka",
+      "players": [
+        { "number": 13, "name": "Dominik Umlauf", "position": "P" },
+        { "number": 10, "name": "Filip Umlauf", "position": "P" },
+        { "number": null, "name": "Josef Pohl", "position": "G" }
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "date": "2025-09-10",
+      "home": "Homolkovi vepři",
+      "away": "Hroši",
+      "homeGoals": 5,
+      "awayGoals": 3,
+      "played": true,
+      "playersHome": [13, 6, 29, 8, 4, 88],
+      "playersAway": [7, 10, 11, 2],
+      "goalscorers": [13, 13, 29, 8, 4, 7, 10, 11]
+    },
+    {
+      "date": "2025-09-15",
+      "home": "Skalka",
+      "away": "Hroši",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true,
+      "playersHome": [13, 10],
+      "playersAway": [7, 97],
+      "goalscorers": [13, 10, 7, 97]
+    },
+    {
+      "date": "2025-09-25",
+      "home": "Skalka",
+      "away": "Homolkovi vepři",
+      "played": false
+    }
+  ]
+}
+

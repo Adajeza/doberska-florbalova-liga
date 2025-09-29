@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Doberská florbalová liga</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Doberská florbalová liga</h1>
+    <nav id="main-nav">
+      <button class="tab-button active" data-tab="tab-tabulka">Tabulka</button>
+      <button class="tab-button" data-tab="tab-vysledky">Výsledky</button>
+      <button class="tab-button" data-tab="tab-rozpis">Rozpis</button>
+      <button class="tab-button" data-tab="tab-soupisky">Soupisky</button>
+      <button class="tab-button" data-tab="tab-strelci">Střelci</button>
+      <button class="tab-button" data-tab="tab-golmani">Brankáři</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="tab-tabulka" class="tab-content"></section>
+    <section id="tab-vysledky" class="tab-content"></section>
+    <section id="tab-rozpis" class="tab-content"></section>
+    <section id="tab-soupisky" class="tab-content"></section>
+    <section id="tab-strelci" class="tab-content"></section>
+    <section id="tab-golmani" class="tab-content"></section>
+  </main>
+
+  <footer>
+    <small>Doberská florbalová liga — automatické zobrazení dat z <code>data.json</code></small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

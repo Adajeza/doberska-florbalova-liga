@@ -4,7 +4,7 @@
       "name": "Homolkovi vepři",
       "players": [
         {
-          "number": null,
+          "number": 1,
           "name": "Veronika Šmídová",
           "position": "G",
           "goals": 0,
@@ -82,7 +82,7 @@
           "matches": 0
         },
         {
-          "number": null,
+          "number": 19,
           "name": "Miroslav Jašík",
           "position": "G",
           "goals": 0,
@@ -116,7 +116,7 @@
       "name": "Hroši",
       "players": [
         {
-          "number": null,
+          "number": 99,
           "name": "Jan Franc",
           "position": "G",
           "goals": 0,
@@ -124,7 +124,7 @@
           "goalsAgainst": 0
         },
         {
-          "number": null,
+          "number": 1,
           "name": "Tereza Svobodová",
           "position": "G",
           "goals": 0,
@@ -305,7 +305,7 @@
           "matches": 0
         },
         {
-          "number": null,
+          "number": 1,
           "name": "Josef Pohl",
           "position": "G",
           "goals": 0,
@@ -313,7 +313,7 @@
           "goalsAgainst": 0
         },
         {
-          "number": null,
+          "number": 99,
           "name": "Jakub Matějů",
           "position": "G",
           "goals": 0,
@@ -326,7 +326,7 @@
       "name": "Vratné lahve",
       "players": [
         {
-          "number": null,
+          "number": 1,
           "name": "Jan Bárta",
           "position": "G",
           "goals": 0,
@@ -390,7 +390,7 @@
         {
           "number": 1,
           "name": "Vojtěch Svoboda",
-          "position": "P",
+          "position": "G",
           "goals": 0,
           "matches": 0
         },

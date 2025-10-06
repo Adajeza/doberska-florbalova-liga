@@ -95,7 +95,6 @@
         { "number": 12, "name": "Václav Nosek", "position": "P", "goals": 0, "matches": 0 },
         { "number": 1, "name": "Andrej Pápeš", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 }
       ]
-  ],
   "matches": [
     { "date": "2025-10-06", "home": "Hroši", "away": "Skalka", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2025-10-06", "home": "Skalka", "away": "Vratné lahve", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },

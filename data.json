@@ -66,6 +66,8 @@
         { "number": 47, "name": "Miloslav Pop", "position": "P", "goals": 0, "matches": 0 },
         { "number": 74, "name": "Filip Matějů", "position": "P", "goals": 0, "matches": 0 },
         { "number": 13, "name": "Martin Holub", "position": "P", "goals": 0, "matches": 0 },
+        { "number": 69, "name": "Jan Pop", "position": "P", "goals": 0, "matches": 0 },
+        { "number": 51, "name": "Marek Čejpa", "position": "P", "goals": 0, "matches": 0 },
         { "number": 7, "name": "Radek Hejzlar", "position": "P", "goals": 0, "matches": 0 }
       ]
     },
@@ -149,47 +151,47 @@
 
     { "date": "2026-01-19", "home": "Hroši", "away": "Vratné lahve", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-01-19", "home": "Vratné lahve", "away": "Skalka", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-01-19", "home": "Skalka", "away": "Hroši", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] }
+    { "date": "2026-01-19", "home": "Skalka", "away": "Hroši", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2026-01-26", "home": "Pop a Šrot", "away": "Hroši", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-01-26", "home": "All-stars", "away": "Pop a Šrot", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-01-26", "home": "Hroši", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] }
-      
+    { "date": "2026-01-26", "home": "Hroši", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+
     { "date": "2026-02-02", "home": "All-stars", "away": "Pop a Šrot", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-02-02", "home": "Skalka", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-02-02", "home": "Pop a Šrot", "away": "Skalka", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] }
+    { "date": "2026-02-02", "home": "Pop a Šrot", "away": "Skalka", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2026-02-09", "home": "Homolkovi vepři", "away": "Vratné lahve", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-02-09", "home": "Vratné lahve", "away": "Pop a Šrot", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-02-09", "home": "Pop a Šrot", "away": "Homolkovi vepři", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] }
+    { "date": "2026-02-09", "home": "Pop a Šrot", "away": "Homolkovi vepři", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2026-02-16", "home": "All-stars", "away": "Homolkovi vepři", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-02-16", "home": "Skalka", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-02-16", "home": "Homolkovi vepři", "away": "Skalka", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] }
+    { "date": "2026-02-16", "home": "Homolkovi vepři", "away": "Skalka", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2026-02-23", "home": "Hroši", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-02-23", "home": "Vratné lahve", "away": "Hroši" "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-02-23", "home": "All-stars", "away": "Vratné lahve", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] }
+    { "date": "2026-02-23", "home": "Vratné lahve", "away": "Hroši", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-02-23", "home": "All-stars", "away": "Vratné lahve", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2026-03-02", "home": "Vratné lahve", "away": "Pop a Šrot", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-03-02", "home": "Pop a Šrot", "away": "Skalka", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-03-02", "home": "Skalka", "away": "Vratné lahve", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] }
+    { "date": "2026-03-02", "home": "Skalka", "away": "Vratné lahve", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2026-03-09", "home": "Homolkovi vepři", "away": "Vratné lahve", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-03-09", "home": "Vratné lahve", "away": "Skalka", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-03-09", "home": "Skalka", "away": "Homolkovi vepři", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] }
+    { "date": "2026-03-09", "home": "Skalka", "away": "Homolkovi vepři", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2026-03-16", "home": "Hroši", "away": "Pop a Šrot", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-03-16", "home": "Pop a Šrot", "away": "Vratné lahve", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-03-16", "home": "Vratné lahve", "away": "Hroši", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] }
+    { "date": "2026-03-16", "home": "Vratné lahve", "away": "Hroši", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2026-03-23", "home": "All-stars", "away": "Skalka", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-03-23", "home": "Skalka", "away": "Hroši", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-03-23", "home": "Hroši", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] }
+    { "date": "2026-03-23", "home": "Hroši", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2026-03-30", "home": "All-stars", "away": "Homolkovi vepři", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-03-30", "home": "Pop a Šrot", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-03-30", "home": "Homolkovi vepři", "away": "Pop a Šrot", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] }
+    { "date": "2026-03-30", "home": "Homolkovi vepři", "away": "Pop a Šrot", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2026-04-13", "home": "Homolkovi vepři", "away": "Hroši", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-04-13", "home": "Pop a Šrot", "away": "Skalka", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },

@@ -76,7 +76,7 @@
       "players": [
         { "number": 7, "name": "Dominik Dostál", "position": "P", "goals": 0, "matches": 0 },
         { "number": 21, "name": "Jiří Poul", "position": "P", "goals": 0, "matches": 0 },
-        { "number": 1, "name": "Vojtěch Svoboda", "position": "G", "goals": 0, "matches": 0 },
+        { "number": 1, "name": "Vojtěch Svoboda", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 },
         { "number": 9, "name": "Jakub Čtvrtečka", "position": "P", "goals": 0, "matches": 0 },
         { "number": 37, "name": "Jan Kulhánek", "position": "P", "goals": 0, "matches": 0 },
         { "number": 38, "name": "Matěj Čtvrtečka", "position": "P", "goals": 0, "matches": 0 },
@@ -95,10 +95,12 @@
         { "number": 12, "name": "Václav Nosek", "position": "P", "goals": 0, "matches": 0 },
         { "number": 1, "name": "Andrej Pápeš", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 }
       ]
+    }
+  ],
   "matches": [
-    { "date": "2025-10-06", "home": "Hroši", "away": "Skalka", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2025-10-06", "home": "Skalka", "away": "Vratné lahve", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2025-10-06", "home": "Vratné lahve", "away": "Hroši", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2025-10-06", "home": "Hroši", "away": "Skalka", "played": false, "homeGoals": 6, "awayGoals": 10, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2025-10-06", "home": "Skalka", "away": "Vratné lahve", "played": false, "homeGoals": 5, "awayGoals": 11, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2025-10-06", "home": "Vratné lahve", "away": "Hroši", "played": false, "homeGoals": 7, "awayGoals": 4, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2025-10-13", "home": "Homolkovi vepři", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2025-10-13", "home": "All-stars", "away": "Vratné lahve", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },

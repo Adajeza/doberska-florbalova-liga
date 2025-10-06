@@ -55,6 +55,7 @@
         { "number": 7, "name": "Vojtěch Mňuk", "position": "P", "goals": 0, "matches": 0 },
         { "number": 3, "name": "Jakub Mervart", "position": "P", "goals": 0, "matches": 0 },
         { "number": 1, "name": "Josef Pohl", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 },
+        { "number": 98, "name": "Josef Pohl", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 },
         { "number": 99, "name": "Jakub Matějů", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 }
       ]
     },

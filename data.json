@@ -105,7 +105,7 @@
 
     { "date": "2025-10-13", "home": "Homolkovi vepři", "away": "All-stars", "played": true, "homeGoals": 19, "awayGoals": 2, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2025-10-13", "home": "All-stars", "away": "Vratné lahve", "played": true, "homeGoals": 2, "awayGoals": 20, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2025-10-13", "home": "Vratné lahve", "away": "Homolkovi vepři", "played": false, "homeGoals": 9, "awayGoals": 8, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2025-10-13", "home": "Vratné lahve", "away": "Homolkovi vepři", "played": true, "homeGoals": 9, "awayGoals": 8, "resultType": "shootout", "winner": "Vratné lahve", "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2025-10-20", "home": "Homolkovi vepři", "away": "Hroši", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2025-10-20", "home": "Hroši", "away": "Pop a Šrot", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },

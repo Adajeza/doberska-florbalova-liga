@@ -3,7 +3,7 @@
     {
       "name": "Homolkovi vepři",
       "players": [
-        { "number": 1, "name": "Veronika Šmídová", "position": "G", "goals": 0, "matches": 2, "goalsAgainst": 11 },
+        { "number": 1, "name": "Veronika Šmídová", "position": "G", "goals": 0, "matches": 2, "goalsAgainst": 10 },
         { "number": 13, "name": "Adam Ježek", "position": "P", "goals": 9, "matches": 2 },
         { "number": 6, "name": "Milan Šulc", "position": "P", "goals": 0, "matches": 0 },
         { "number": 29, "name": "Tomáš Kracík", "position": "P", "goals": 3, "matches": 2 },
@@ -62,7 +62,7 @@
     {
       "name": "Vratné lahve",
       "players": [
-        { "number": 1, "name": "Jan Bárta", "position": "G", "goals": 0, "matches": 2, "goalsAgainst": 9 },
+        { "number": 1, "name": "Jan Bárta", "position": "G", "goals": 0, "matches": 4, "goalsAgainst": 19 },
         { "number": 11, "name": "Tomáš Bárta", "position": "P", "goals": 19, "matches": 4 },
         { "number": 47, "name": "Miloslav Pop", "position": "P", "goals": 1, "matches": 2 },
         { "number": 74, "name": "Filip Matějů", "position": "P", "goals": 13, "matches": 4 },

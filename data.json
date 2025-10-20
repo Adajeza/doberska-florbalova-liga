@@ -87,10 +87,10 @@
     {
       "name": "Pop a Šrot",
       "players": [
-        { "number": 25, "name": "Jiří Verner", "position": "P", "goals": 2, "matches": 4 },
-        { "number": 33, "name": "Tomáš Nosek", "position": "P", "goals": 2, "matches": 8 },
+        { "number": 25, "name": "Jiří Verner", "position": "P", "goals": 4, "matches": 2 },
+        { "number": 33, "name": "Tomáš Nosek", "position": "P", "goals": 8, "matches": 2 },
         { "number": 11, "name": "Jakub Krycner", "position": "P", "goals": 2, "matches": 2 },
-        { "number": 69, "name": "Dominik Barilla", "position": "P", "goals": 2, "matches": 6 },
+        { "number": 69, "name": "Dominik Barilla", "position": "P", "goals": 6, "matches": 2 },
         { "number": 50, "name": "Tomáš Kulhánek", "position": "P", "goals": 0, "matches": 0 },
         { "number": 2, "name": "Šimon Horáček", "position": "P", "goals": 0, "matches": 0 },
         { "number": 12, "name": "Václav Nosek", "position": "P", "goals": 0, "matches": 0 },

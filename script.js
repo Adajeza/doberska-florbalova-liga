@@ -35,7 +35,6 @@ function setupTabs() {
       if (el) el.style.display = 'block';
     });
   });
-  // zobraz první tab
   const first = document.querySelector('.tab-button.active');
   if (first) document.getElementById(first.dataset.tab).style.display = 'block';
 }
@@ -58,29 +57,90 @@ function renderTable() {
 
   const stats = {};
   data.teams.forEach(t => {
-    stats[t.name] = { played: 0, win: 0, draw: 0, loss: 0, gf: 0, ga: 0, points: 0 };
+    stats[t.name] = { 
+      played: 0, win: 0, otWin: 0, draw: 0, otLoss: 0, loss: 0, 
+      gf: 0, ga: 0, points: 0 
+    };
   });
 
   data.matches.forEach(m => {
     if (!m.played) return;
     const home = m.home, away = m.away;
     const hg = Number(m.homeGoals), ag = Number(m.awayGoals);
-    stats[home].played++; stats[away].played++;
-    stats[home].gf += hg; stats[away].gf += ag;
-    stats[home].ga += ag; stats[away].ga += hg;
+    const type = m.resultType || "regular";
+    const winner = m.winner || null;
 
-    if (hg > ag) { stats[home].win++; stats[home].points += 3; stats[away].loss++; }
-    else if (hg < ag) { stats[away].win++; stats[away].points += 3; stats[home].loss++; }
-    else { stats[home].draw++; stats[away].draw++; stats[home].points++; stats[away].points++; }
+    stats[home].played++;
+    stats[away].played++;
+    stats[home].gf += hg;
+    stats[away].gf += ag;
+    stats[home].ga += ag;
+    stats[away].ga += hg;
+
+    if (type === "shootout" || type === "overtime") {
+      if (winner === home) {
+        stats[home].otWin++;
+        stats[home].points += 2;
+        stats[away].otLoss++;
+        stats[away].points += 1;
+      } else {
+        stats[away].otWin++;
+        stats[away].points += 2;
+        stats[home].otLoss++;
+        stats[home].points += 1;
+      }
+    } else if (hg > ag) {
+      stats[home].win++;
+      stats[home].points += 3;
+      stats[away].loss++;
+    } else if (hg < ag) {
+      stats[away].win++;
+      stats[away].points += 3;
+      stats[home].loss++;
+    } else {
+      stats[home].draw++;
+      stats[away].draw++;
+      stats[home].points++;
+      stats[away].points++;
+    }
   });
 
   const arr = Object.entries(stats).map(([name, s]) => ({
     name, ...s, diff: s.gf - s.ga
   })).sort((a, b) => b.points - a.points || b.diff - a.diff || b.gf - a.gf);
 
-  let html = '<table><thead><tr><th>Poř.</th><th>Tým</th><th>Zápasy</th><th>V</th><th>R</th><th>P</th><th>Body</th><th>Skóre</th></tr></thead><tbody>';
+  let html = `
+  <table>
+    <thead>
+      <tr>
+        <th>Poř.</th>
+        <th>Tým</th>
+        <th>Z</th>
+        <th>V</th>
+        <th>VpN</th>
+        <th>R</th>
+        <th>PpN</th>
+        <th>P</th>
+        <th>Body</th>
+        <th>Skóre</th>
+      </tr>
+    </thead>
+    <tbody>
+  `;
+
   arr.forEach((t, i) => {
-    html += `<tr><td>${i + 1}</td><td>${t.name}</td><td>${t.played}</td><td>${t.win}</td><td>${t.draw}</td><td>${t.loss}</td><td>${t.points}</td><td>${t.gf}:${t.ga}</td></tr>`;
+    html += `<tr>
+      <td>${i + 1}</td>
+      <td>${t.name}</td>
+      <td>${t.played}</td>
+      <td>${t.win}</td>
+      <td>${t.otWin}</td>
+      <td>${t.draw}</td>
+      <td>${t.otLoss}</td>
+      <td>${t.loss}</td>
+      <td>${t.points}</td>
+      <td>${t.gf}:${t.ga}</td>
+    </tr>`;
   });
   html += '</tbody></table>';
   el.innerHTML += html;
@@ -97,7 +157,10 @@ function renderResults() {
 
   let html = '<table><thead><tr><th>Datum</th><th>Domácí</th><th>Výsledek</th><th>Hosté</th></tr></thead><tbody>';
   played.forEach(m => {
-    html += `<tr><td>${m.date}</td><td>${m.home}</td><td>${m.homeGoals}:${m.awayGoals}</td><td>${m.away}</td></tr>`;
+    let resultText = `${m.homeGoals}:${m.awayGoals}`;
+    if (m.resultType === "shootout") resultText += " sn";
+    else if (m.resultType === "overtime") resultText += " pp";
+    html += `<tr><td>${m.date}</td><td>${m.home}</td><td>${resultText}</td><td>${m.away}</td></tr>`;
   });
   html += '</tbody></table>';
   el.innerHTML += html;
@@ -127,7 +190,7 @@ function renderRosters() {
   el.innerHTML = '<h2>Soupisky</h2>';
 
   data.teams.forEach(team => {
-    let html = `<h3>${team.name}</h3><table><thead><tr><th>Číslo</th><th>Jméno</th><th>Pozice</th><th>Zápasy</th><th>${team.name === 'G' ? 'Obdržené' : 'Góly'}</th></tr></thead><tbody>`;
+    let html = `<h3>${team.name}</h3><table><thead><tr><th>Číslo</th><th>Jméno</th><th>Pozice</th><th>Zápasy</th><th>Góly / Obdržené</th></tr></thead><tbody>`;
     team.players.forEach(p => {
       const matches = p.matches || 0;
       const goals = p.goals || 0;
@@ -160,7 +223,6 @@ function renderScorers() {
   });
 
   list.sort((a, b) => b.goals - a.goals);
-
   if (!list.length) return el.insertAdjacentHTML('beforeend', '<p>Zatím žádní střelci</p>');
 
   let html = '<table><thead><tr><th>Poř.</th><th>Jméno</th><th>Tým</th><th>Zápasy</th><th>Góly</th></tr></thead><tbody>';
@@ -194,7 +256,6 @@ function renderGoalies() {
   });
 
   list.sort((a, b) => a.avg - b.avg);
-
   if (!list.length) return el.insertAdjacentHTML('beforeend', '<p>Zatím žádní gólmani</p>');
 
   let html = '<table><thead><tr><th>Poř.</th><th>Jméno</th><th>Tým</th><th>Zápasy</th><th>Obdržené</th><th>Průměr</th></tr></thead><tbody>';
@@ -204,5 +265,3 @@ function renderGoalies() {
   html += '</tbody></table>';
   el.innerHTML += html;
 }
-
-

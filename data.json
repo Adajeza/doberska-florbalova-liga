@@ -3,7 +3,7 @@
     {
       "name": "Homolkovi vepři",
       "players": [
-        { "number": 1, "name": "Veronika Šmídová", "position": "G", "goals": 0, "matches": 6, "goalsAgainst": 39 },
+        { "number": 1, "name": "Veronika Šmídová", "position": "G", "goals": 0, "matches": 6, "goalsAgainst": 38 },
         { "number": 13, "name": "Adam Ježek", "position": "P", "goals": 32, "matches": 6 },
         { "number": 6, "name": "Milan Šulc", "position": "P", "goals": 0, "matches": 0 },
         { "number": 29, "name": "Tomáš Kracík", "position": "P", "goals": 12, "matches": 6 },

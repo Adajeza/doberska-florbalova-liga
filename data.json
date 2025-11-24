@@ -3,15 +3,15 @@
     {
       "name": "Homolkovi vepři",
       "players": [
-        { "number": 1, "name": "Veronika Šmídová", "position": "G", "goals": 0, "matches": 6, "goalsAgainst": 38 },
-        { "number": 13, "name": "Adam Ježek", "position": "P", "goals": 32, "matches": 6 },
+        { "number": 1, "name": "Veronika Šmídová", "position": "G", "goals": 0, "matches": 8, "goalsAgainst": 49 },
+        { "number": 13, "name": "Adam Ježek", "position": "P", "goals": 40, "matches": 8 },
         { "number": 6, "name": "Milan Šulc", "position": "P", "goals": 0, "matches": 0 },
-        { "number": 29, "name": "Tomáš Kracík", "position": "P", "goals": 12, "matches": 6 },
+        { "number": 29, "name": "Tomáš Kracík", "position": "P", "goals": 20, "matches": 8 },
         { "number": 8, "name": "Vojtěch Pop", "position": "P", "goals": 0, "matches": 0 },
-        { "number": 4, "name": "Tomáš Jablonský", "position": "P", "goals": 7, "matches": 6 },
-        { "number": 88, "name": "Jiří Homolka", "position": "P", "goals": 5, "matches": 6 },
+        { "number": 4, "name": "Tomáš Jablonský", "position": "P", "goals": 10, "matches": 8 },
+        { "number": 88, "name": "Jiří Homolka", "position": "P", "goals": 9, "matches": 8 },
         { "number": 55, "name": "Jan Flegl", "position": "P", "goals": 9, "matches": 2 },
-        { "number": 3, "name": "Milan Poloch", "position": "P", "goals": 4, "matches": 2 },
+        { "number": 3, "name": "Milan Poloch", "position": "P", "goals": 9, "matches": 4 },
         { "number": 46, "name": "Karel Hlaváček", "position": "P", "goals": 0, "matches": 0 },
         { "number": 77, "name": "Martin Čečetka", "position": "P", "goals": 0, "matches": 0 },
         { "number": 19, "name": "Miroslav Jašík", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 },
@@ -62,14 +62,14 @@
     {
       "name": "Vratné lahve",
       "players": [
-        { "number": 1, "name": "Jan Bárta", "position": "G", "goals": 0, "matches": 4, "goalsAgainst": 19 },
-        { "number": 11, "name": "Tomáš Bárta", "position": "P", "goals": 19, "matches": 4 },
+        { "number": 1, "name": "Jan Bárta", "position": "G", "goals": 0, "matches": 6, "goalsAgainst": 48 },
+        { "number": 11, "name": "Tomáš Bárta", "position": "P", "goals": 21, "matches": 6 },
         { "number": 47, "name": "Miloslav Pop", "position": "P", "goals": 1, "matches": 2 },
-        { "number": 74, "name": "Filip Matějů", "position": "P", "goals": 13, "matches": 4 },
+        { "number": 74, "name": "Filip Matějů", "position": "P", "goals": 14, "matches": 6 },
         { "number": 13, "name": "Martin Holub", "position": "P", "goals": 10, "matches": 4 },
-        { "number": 69, "name": "Jan Pop", "position": "P", "goals": 0, "matches": 0 },
+        { "number": 69, "name": "Jan Pop", "position": "P", "goals": 2, "matches": 2 },
         { "number": 51, "name": "Marek Čejpa", "position": "P", "goals": 0, "matches": 0 },
-        { "number": 7, "name": "Radek Hejzlar", "position": "P", "goals": 2, "matches": 4 }
+        { "number": 7, "name": "Radek Hejzlar", "position": "P", "goals": 2, "matches": 6 }
       ]
     },
     {
@@ -87,14 +87,14 @@
     {
       "name": "Pop a Šrot",
       "players": [
-        { "number": 25, "name": "Jiří Verner", "position": "P", "goals": 20, "matches": 6 },
+        { "number": 25, "name": "Jiří Verner", "position": "P", "goals": 25, "matches": 8 },
         { "number": 33, "name": "Tomáš Nosek", "position": "P", "goals": 18, "matches": 6 },
-        { "number": 11, "name": "Jakub Krycner", "position": "P", "goals": 15, "matches": 6 },
-        { "number": 69, "name": "Dominik Barilla", "position": "P", "goals": 9, "matches": 6 },
-        { "number": 50, "name": "Tomáš Kulhánek", "position": "P", "goals": 5, "matches": 2 },
+        { "number": 11, "name": "Jakub Krycner", "position": "P", "goals": 18, "matches": 8 },
+        { "number": 69, "name": "Dominik Barilla", "position": "P", "goals": 13, "matches": 8 },
+        { "number": 50, "name": "Tomáš Kulhánek", "position": "P", "goals": 14, "matches": 4 },
         { "number": 2, "name": "Šimon Horáček", "position": "P", "goals": 7, "matches": 4 },
         { "number": 12, "name": "Václav Nosek", "position": "P", "goals": 0, "matches": 0 },
-        { "number": 1, "name": "Andrej Pápeš", "position": "G", "goals": 0, "matches": 6, "goalsAgainst": 47 }
+        { "number": 1, "name": "Andrej Pápeš", "position": "G", "goals": 0, "matches": 8, "goalsAgainst": 62 }
       ]
     }
   ],
@@ -123,9 +123,9 @@
     { "date": "2025-11-10", "home": "All-stars", "away": "Skalka", "played": true, "homeGoals": 10, "awayGoals": 13, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2025-11-10", "home": "Pop a Šrot", "away": "All-stars", "played": true, "homeGoals": 17, "awayGoals": 5, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
-    { "date": "2025-11-24", "home": "Homolkovi vepři", "away": "Vratné lahve", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2025-11-24", "home": "Vratné lahve", "away": "Pop a Šrot", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2025-11-24", "home": "Pop a Šrot", "away": "Homolkovi vepři", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2025-11-24", "home": "Homolkovi vepři", "away": "Vratné lahve", "played": true, "homeGoals": 15, "awayGoals": 3, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2025-11-24", "home": "Vratné lahve", "away": "Pop a Šrot", "played": true, "homeGoals": 2, "awayGoals": 14, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2025-11-24", "home": "Pop a Šrot", "away": "Homolkovi vepři", "played": true, "homeGoals": 8, "awayGoals": 13, "playersHome": [], "playersAway": [], "goalscorers": [] },
       
     { "date": "2025-12-01", "home": "All-stars", "away": "Skalka", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2025-12-01", "home": "Homolkovi vepři", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },

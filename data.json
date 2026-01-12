@@ -96,7 +96,7 @@
         { "number": 50, "name": "Tomáš Kulhánek", "position": "P", "goals": 18, "matches": 6 },
         { "number": 2, "name": "Šimon Horáček", "position": "P", "goals": 13, "matches": 6 },
         { "number": 12, "name": "Václav Nosek", "position": "P", "goals": 3, "matches": 4 },
-        { "number": 1, "name": "Andrej Pápeš", "position": "G", "goals": 0, "matches": 10, "goalsAgainst": 81 }
+        { "number": 1, "name": "Andrej Pápeš", "position": "G", "goals": 0, "matches": 12, "goalsAgainst": 95 }
       ]
     }
   ],

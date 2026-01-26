@@ -26,17 +26,17 @@
         { "number": 99, "name": "Jan Franc", "position": "G", "goals": 0, "matches": 2, "goalsAgainst": 29 },
         { "number": 1, "name": "Tereza Svobodová", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 },
         { "number": 2, "name": "Martin Pašta", "position": "P", "goals": 0, "matches": 0 },
-        { "number": 3, "name": "Jan Flégl", "position": "P", "goals": 9, "matches": 12 },
+        { "number": 3, "name": "Jan Flégl", "position": "P", "goals": 12, "matches": 14 },
         { "number": 5, "name": "Tomáš Dostál", "position": "P", "goals": 7, "matches": 4 },
-        { "number": 6, "name": "Jiří Rozínek", "position": "P", "goals": 13, "matches": 16 },
-        { "number": 7, "name": "Daniel Šmída", "position": "P", "goals": 26, "matches": 15 },
+        { "number": 6, "name": "Jiří Rozínek", "position": "P", "goals": 15, "matches": 18 },
+        { "number": 7, "name": "Daniel Šmída", "position": "P", "goals": 32, "matches": 17 },
         { "number": 10, "name": "Jiří Mádr", "position": "P", "goals": 0, "matches": 0 },
         { "number": 11, "name": "Martin Spanilý", "position": "P", "goals": 25, "matches": 14 },
         { "number": 13, "name": "Tomáš Pecen", "position": "P", "goals": 0, "matches": 0 },
         { "number": 27, "name": "Ondřej Svoboda", "position": "P", "goals": 0, "matches": 0 },
         { "number": 30, "name": "Luděk Preininger", "position": "P", "goals": 0, "matches": 0 },
         { "number": 83, "name": "Tomáš Vidlák", "position": "P", "goals": 3, "matches": 6 },
-        { "number": 97, "name": "Adam Šmída", "position": "P", "goals": 21, "matches": 14 }
+        { "number": 97, "name": "Adam Šmída", "position": "P", "goals": 27, "matches": 16 }
       ]
     },
     {
@@ -76,27 +76,29 @@
     {
       "name": "All-stars",
       "players": [
-        { "number": 7, "name": "Dominik Dostál", "position": "P", "goals": 37, "matches": 6 },
+        { "number": 7, "name": "Dominik Dostál", "position": "P", "goals": 55, "matches": 8 },
         { "number": 21, "name": "Jiří Poul", "position": "P", "goals": 23, "matches": 12 },
-        { "number": 1, "name": "Vojtěch Svoboda", "position": "G", "goals": 0, "matches": 2, "goalsAgainst": 25 },
+        { "number": 1, "name": "Vojtěch Svoboda", "position": "G", "goals": 0, "matches": 4, "goalsAgainst": 45 },
         { "number": 88, "name": "Michal Dostál", "position": "P", "goals": 3, "matches": 2 },
         { "number": 9, "name": "Jakub Čtvrtečka", "position": "P", "goals": 5, "matches": 6 },
         { "number": 37, "name": "Jan Kulhánek", "position": "P", "goals": 0, "matches": 4 },
         { "number": 38, "name": "Matěj Čtvrtečka", "position": "P", "goals": 6, "matches": 6 },
+        { "number": 38, "name": "Matouš Drašner", "position": "P", "goals": 3, "matches": 2 },
+        { "number": 96, "name": "Jakub Frajvald", "position": "P", "goals": 7, "matches": 2 },
         { "number": 11, "name": "Matěj Hanis", "position": "P", "goals": 1, "matches": 4 }
       ]
     },
     {
       "name": "Pop a Šrot",
       "players": [
-        { "number": 25, "name": "Jiří Verner", "position": "P", "goals": 37, "matches": 12 },
+        { "number": 25, "name": "Jiří Verner", "position": "P", "goals": 49, "matches": 14 },
         { "number": 33, "name": "Tomáš Nosek", "position": "P", "goals": 28, "matches": 10 },
         { "number": 11, "name": "Jakub Krycner", "position": "P", "goals": 18, "matches": 8 },
         { "number": 69, "name": "Dominik Barilla", "position": "P", "goals": 17, "matches": 10 },
-        { "number": 50, "name": "Tomáš Kulhánek", "position": "P", "goals": 18, "matches": 6 },
+        { "number": 50, "name": "Tomáš Kulhánek", "position": "P", "goals": 26, "matches": 8 },
         { "number": 2, "name": "Šimon Horáček", "position": "P", "goals": 13, "matches": 6 },
-        { "number": 12, "name": "Václav Nosek", "position": "P", "goals": 3, "matches": 4 },
-        { "number": 1, "name": "Andrej Pápeš", "position": "G", "goals": 0, "matches": 12, "goalsAgainst": 95 }
+        { "number": 12, "name": "Václav Nosek", "position": "P", "goals": 6, "matches": 6 },
+        { "number": 1, "name": "Andrej Pápeš", "position": "G", "goals": 0, "matches": 14, "goalsAgainst": 120 }
       ]
     }
   ],
@@ -157,9 +159,9 @@
     { "date": "2026-01-19", "home": "Vratné lahve", "away": "Skalka", "played": true, "homeGoals": 8, "awayGoals": 9, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-01-19", "home": "Skalka", "away": "Hroši", "played": true, "homeGoals": 7, "awayGoals": 6, "resultType": "shootout", "winner": "Skalka", "playersHome": [], "playersAway": [], "goalscorers": [] },
 
-    { "date": "2026-01-26", "home": "Pop a Šrot", "away": "Hroši", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-01-26", "home": "All-stars", "away": "Pop a Šrot", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-01-26", "home": "Hroši", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-01-26", "home": "Pop a Šrot", "away": "Hroši", "played": true, "homeGoals": 11, "awayGoals": 9, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-01-26", "home": "All-stars", "away": "Pop a Šrot", "played": true, "homeGoals": 16, "awayGoals": 12, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-01-26", "home": "Hroši", "away": "All-stars", "played": true, "homeGoals": 8, "awayGoals": 12, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2026-02-02", "home": "All-stars", "away": "Pop a Šrot", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-02-02", "home": "Skalka", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },

@@ -42,19 +42,19 @@
     {
       "name": "Skalka",
       "players": [
-        { "number": 12, "name": "Filip Umlauf", "position": "P", "goals": 32, "matches": 14 },
+        { "number": 12, "name": "Filip Umlauf", "position": "P", "goals": 38, "matches": 16 },
         { "number": 5, "name": "Dominik Umlauf", "position": "P", "goals": 24, "matches": 12 },
-        { "number": 2, "name": "Jindřich Vojnar", "position": "P", "goals": 24, "matches": 8 },
+        { "number": 2, "name": "Jindřich Vojnar", "position": "P", "goals": 29, "matches": 10 },
         { "number": 6, "name": "Tomáš Ehl", "position": "P", "goals": 11, "matches": 8 },
-        { "number": 14, "name": "Matěj Stodůlka", "position": "P", "goals": 13, "matches": 10 },
+        { "number": 14, "name": "Matěj Stodůlka", "position": "P", "goals": 14, "matches": 12 },
         { "number": 7, "name": "Šimon Zelený", "position": "P", "goals": 0, "matches": 0 },
         { "number": 11, "name": "Matěj Ehl", "position": "P", "goals": 3, "matches": 2 },
         { "number": 10, "name": "Vladimír Mičian", "position": "P", "goals": 0, "matches": 0 },
-        { "number": 8, "name": "Anna Křížová", "position": "P", "goals": 15, "matches": 14 },
-        { "number": 9, "name": "Jakub Volf", "position": "P", "goals": 3, "matches": 4 },
-        { "number": 7, "name": "Vojtěch Mňuk", "position": "P", "goals": 0, "matches": 0 },
+        { "number": 8, "name": "Anna Křížová", "position": "P", "goals": 16, "matches": 16 },
+        { "number": 9, "name": "Jakub Volf", "position": "P", "goals": 3, "matches": 6 },
+        { "number": 7, "name": "Vojtěch Mňuk", "position": "P", "goals": 0, "matches": 2 },
         { "number": 3, "name": "Jakub Mervart", "position": "P", "goals": 8, "matches": 2 },
-        { "number": 1, "name": "Josef Pohl", "position": "G", "goals": 0, "matches": 6, "goalsAgainst": 64 },
+        { "number": 1, "name": "Josef Pohl", "position": "G", "goals": 0, "matches": 8, "goalsAgainst": 84 },
         { "number": 98, "name": "Dominik Novotný", "position": "G", "goals": 0, "matches": 2, "goalsAgainst": 17 },
         { "number": 97, "name": "Slavomír Bílek", "position": "G", "goals": 0, "matches": 4, "goalsAgainst": 25 },
         { "number": 99, "name": "Jakub Matějů", "position": "G", "goals": 0, "matches": 2, "goalsAgainst": 15 }
@@ -76,28 +76,29 @@
     {
       "name": "All-stars",
       "players": [
-        { "number": 7, "name": "Dominik Dostál", "position": "P", "goals": 55, "matches": 8 },
-        { "number": 21, "name": "Jiří Poul", "position": "P", "goals": 23, "matches": 12 },
+        { "number": 7, "name": "Dominik Dostál", "position": "P", "goals": 65, "matches": 10 },
+        { "number": 21, "name": "Jiří Poul", "position": "P", "goals": 25, "matches": 14 },
         { "number": 1, "name": "Vojtěch Svoboda", "position": "G", "goals": 0, "matches": 4, "goalsAgainst": 45 },
         { "number": 88, "name": "Michal Dostál", "position": "P", "goals": 3, "matches": 2 },
         { "number": 9, "name": "Jakub Čtvrtečka", "position": "P", "goals": 5, "matches": 6 },
-        { "number": 37, "name": "Jan Kulhánek", "position": "P", "goals": 0, "matches": 4 },
-        { "number": 38, "name": "Matěj Čtvrtečka", "position": "P", "goals": 6, "matches": 6 },
-        { "number": 38, "name": "Matouš Drašner", "position": "P", "goals": 3, "matches": 2 },
-        { "number": 96, "name": "Jakub Frajvald", "position": "P", "goals": 7, "matches": 2 },
+        { "number": 37, "name": "Jan Kulhánek", "position": "P", "goals": 0, "matches": 6 },
+        { "number": 38, "name": "Matěj Čtvrtečka", "position": "P", "goals": 6, "matches": 8 },
+        { "number": 38, "name": "Matouš Drašner", "position": "P", "goals": 6, "matches": 4 },
+        { "number": 96, "name": "Jakub Frajvald", "position": "P", "goals": 10, "matches": 4 },
         { "number": 11, "name": "Matěj Hanis", "position": "P", "goals": 1, "matches": 4 }
       ]
     },
     {
       "name": "Pop a Šrot",
       "players": [
-        { "number": 25, "name": "Jiří Verner", "position": "P", "goals": 49, "matches": 14 },
-        { "number": 33, "name": "Tomáš Nosek", "position": "P", "goals": 28, "matches": 10 },
+        { "number": 25, "name": "Jiří Verner", "position": "P", "goals": 54, "matches": 16 },
+        { "number": 33, "name": "Tomáš Nosek", "position": "P", "goals": 30, "matches": 12 },
         { "number": 11, "name": "Jakub Krycner", "position": "P", "goals": 18, "matches": 8 },
         { "number": 69, "name": "Dominik Barilla", "position": "P", "goals": 17, "matches": 10 },
         { "number": 50, "name": "Tomáš Kulhánek", "position": "P", "goals": 26, "matches": 8 },
         { "number": 2, "name": "Šimon Horáček", "position": "P", "goals": 13, "matches": 6 },
-        { "number": 12, "name": "Václav Nosek", "position": "P", "goals": 6, "matches": 6 },
+        { "number": 99, "name": "Richard Chaloupka", "position": "P", "goals": 14, "matches": 2 },
+        { "number": 12, "name": "Václav Nosek", "position": "P", "goals": 10, "matches": 8 },
         { "number": 1, "name": "Andrej Pápeš", "position": "G", "goals": 0, "matches": 14, "goalsAgainst": 120 }
       ]
     }
@@ -163,9 +164,9 @@
     { "date": "2026-01-26", "home": "All-stars", "away": "Pop a Šrot", "played": true, "homeGoals": 16, "awayGoals": 12, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-01-26", "home": "Hroši", "away": "All-stars", "played": true, "homeGoals": 8, "awayGoals": 12, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
-    { "date": "2026-02-02", "home": "All-stars", "away": "Pop a Šrot", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-02-02", "home": "Skalka", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-02-02", "home": "Pop a Šrot", "away": "Skalka", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-02-02", "home": "All-stars", "away": "Pop a Šrot", "played": true, "homeGoals": 7, "awayGoals": 16, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-02-02", "home": "Skalka", "away": "All-stars", "played": true, "homeGoals": 8, "awayGoals": 11, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-02-02", "home": "Pop a Šrot", "away": "Skalka", "played": true, "homeGoals": 9, "awayGoals": 5, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2026-02-09", "home": "Homolkovi vepři", "away": "Vratné lahve", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-02-09", "home": "Vratné lahve", "away": "Pop a Šrot", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
